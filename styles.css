@@ -89,3 +89,32 @@ img {
 .orange-text {
     color: #EF3C23;
 }
+
+.button {
+    position: absolute;
+    width: 250px;
+    height: 65px;
+    left: 195px;
+    top: 543px;
+    background-color: #EF3C23;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.button button:hover{
+    position: absolute;
+    width: 250px;
+    height: 65px;
+    left: 195px;
+    top: 543px;
+    background-color: #EF3C23;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    color: black;
+    outline: none;
+    border: none;
+}
+
