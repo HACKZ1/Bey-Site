@@ -23,9 +23,7 @@ img {
     height: 30px;
     left: 133px;
     top: 22px;
-    font-family: fonts/Montserrat-Bold;
-    font-style: normal;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     line-height: 10px;
     text-decoration: none;
@@ -38,9 +36,7 @@ img {
     height: 30px;
     left: 133px;
     top: 22px;
-    font-family: fonts/Montserrat-Bold;
-    font-style: normal;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     line-height: 5px;
     text-decoration: overline;
@@ -56,9 +52,7 @@ img {
     top: 22px;
     padding-bottom: 50px;
     text-decoration: none;
-    font-family: fonts/Montserrat-Bold;
-    font-style: normal;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     line-height: 10px;
     color: #FFFFFF;
@@ -72,12 +66,26 @@ img {
     top: 22px;
     padding-bottom: 50px;
     text-decoration: overline;
-    font-family: fonts/Montserrat-Bold;
-    font-style: normal;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     line-height: 5px;
     color: #F3D3BD;
     transition: .1s;
 }
 
+.top-text {
+    position: absolute;
+    width: flex;
+    height: 49px;
+    left: 68px;
+    top: 316px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    line-height: 49px;
+    color: #000000;
+    }
+
+.orange-text {
+    color: #EF3C23;
+}
