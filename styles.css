@@ -1,7 +1,11 @@
 body {
     display: flex;
     margin: 0px;
-}
+    position: relative;
+
+    background: linear-gradient(296.67deg, #EFEFEF 14.3%, rgba(233, 233, 233, 0.723958) 34%, rgba(242, 241, 241, 0.302083) 64.14%, rgba(252, 252, 252, 0.0729167) 80.51%, rgba(255, 255, 255, 0) 85.72%);
+    border: 0px solid #FFFFFF;
+    }
 
 nav {
     position: absolute;
@@ -104,17 +108,13 @@ img {
     border: none;
 }
 
-.button button:hover{
+.bey-img {
     position: absolute;
-    width: 250px;
-    height: 65px;
-    left: 195px;
-    top: 543px;
-    background-color: #EF3C23;
-    font-family: 'Montserrat', sans-serif;
-    font-size: xx-large;
-    color: black;
-    outline: none;
-    border: none;
+    width: 395px;
+    height: 395px;
+    left: 720px;
+    top: 292px;
+    mix-blend-mode: multiply;
+    padding-left: 200px; 
+    padding-bottom: 35px;
 }
-
